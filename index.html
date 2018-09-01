@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Length Converter</title>
+</head>
+
+<body>
+
+  <div class="input-box">
+      <h2 class="unit-select">Select input unit</h2>
+      <div class="checkbox-group">
+        <label for="meter">Meters</label>
+        <input type="radio" name="input-unit" id="meter" data-unit="meter" checked>
+      </div>
+      <div class="checkbox-group">
+        <label for="kilometer">Kilometers</label>
+        <input type="radio" name="input-unit" id="kilometer" data-unit="kilometer">
+      </div>
+      <div class="checkbox-group">
+        <label for="decimeter">decimeters</label>
+        <input type="radio" name="input-unit" id="decimeter" data-unit="decimeter">
+      </div>
+      <div class="checkbox-group">
+        <label for="centimeter">centimeters</label>
+        <input type="radio" name="input-unit" id="centimeter" data-unit="centimeter">
+      </div>
+      <div class="checkbox-group">
+        <label for="milimeter">Milimeters</label>
+        <input type="radio" name="input-unit" id="milimeter" data-unit="milimeter">
+      </div>
+      <div class="user-input">
+        <label for="yourLength">Input unit:</label>
+        <input type="text" name="yourLength" id="yourLength">
+        <div class="alert">
+          Please type a number!
+        </div>
+      </div>
+  </div>
+
+  <div class="input-box">
+      <h2 class="unit-select">Select output unit</h2>
+      <div class="checkbox-group">
+        <label for="meter-output">Meters</label>
+        <input type="radio" name="output-unit" id="meter-output" data-unit="meter" checked>
+      </div>
+      <div class="checkbox-group">
+        <label for="kilometer-output">Kilometers</label>
+        <input type="radio" name="output-unit" id="kilometer-output" data-unit="kilometer">
+      </div>
+      <div class="checkbox-group">
+        <label for="decimeter-output">decimeters</label>
+        <input type="radio" name="output-unit" id="decimeter-output" data-unit="decimeter">
+      </div>
+      <div class="checkbox-group">
+        <label for="centimeter-output">centimeters</label>
+        <input type="radio" name="output-unit" id="centimeter-output" data-unit="centimeter">
+      </div>
+      <div class="checkbox-group">
+        <label for="milimeter-output">Milimeters</label>
+        <input type="radio" name="output-unit" id="milimeter-output" data-unit="milimeter">
+      </div>
+      <div class="user-input">
+        <label for="converted">Output unit:</label>
+        <input type="text" name="converted" id="converted">
+      </div>
+  </div>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
